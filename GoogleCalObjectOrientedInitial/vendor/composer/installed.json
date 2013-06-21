@@ -1,0 +1,141 @@
+[
+    {
+        "name": "phpunit/phpunit",
+        "version": "3.7.x-dev",
+        "version_normalized": "3.7.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/phpunit.git",
+            "reference": "3.7.21"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3.7.21",
+            "reference": "3.7.21",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-pcre": "*",
+            "ext-reflection": "*",
+            "ext-spl": "*",
+            "php": ">=5.3.3",
+            "phpunit/php-code-coverage": ">=1.2.1,<1.3.0",
+            "phpunit/php-file-iterator": ">=1.3.1",
+            "phpunit/php-text-template": ">=1.1.1",
+            "phpunit/php-timer": ">=1.0.2,<1.1.0",
+            "phpunit/phpunit-mock-objects": ">=1.2.0,<1.3.0",
+            "symfony/yaml": ">=2.0,<3.0"
+        },
+        "require-dev": {
+            "pear-pear/pear": "1.9.4"
+        },
+        "suggest": {
+            "ext-json": "*",
+            "ext-simplexml": "*",
+            "ext-tokenizer": "*",
+            "phpunit/php-invoker": ">=1.1.0,<1.2.0"
+        },
+        "time": "2013-05-23 18:54:29",
+        "bin": [
+            "composer/bin/phpunit"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.7.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "PHPUnit/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            "",
+            "../../symfony/yaml/"
+        ],
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sebastian@phpunit.de",
+                "role": "lead"
+            }
+        ],
+        "description": "The PHP Unit Testing framework.",
+        "homepage": "http://www.phpunit.de/",
+        "keywords": [
+            "phpunit",
+            "testing",
+            "xunit"
+        ]
+    },
+    {
+        "name": "google/api-client",
+        "version": "dev-feature/namespaces",
+        "version_normalized": "dev-feature/namespaces",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Block8/Google-API.git",
+            "reference": "a231baed3873d0811c834e359e7fa47132625373"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Block8/Google-API/zipball/a231baed3873d0811c834e359e7fa47132625373",
+            "reference": "a231baed3873d0811c834e359e7fa47132625373",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-05-02 21:55:46",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Google": "src/Google/"
+            },
+            "files": [
+                "src/External/URITemplateParser.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Dan Cryer",
+                "email": "dan@block8.co.uk",
+                "homepage": "http://www.block8.co.uk/"
+            },
+            {
+                "name": "Google",
+                "email": "noreply@google.com",
+                "homepage": "http://www.google.com/"
+            }
+        ],
+        "description": "PHP Client for Google APIs",
+        "homepage": "https://github.com/block8/google-api",
+        "keywords": [
+            "adsense",
+            "adwords",
+            "analytics",
+            "api",
+            "chrome",
+            "client",
+            "compute",
+            "drive",
+            "google",
+            "php",
+            "plus",
+            "search",
+            "youtube"
+        ]
+    }
+]

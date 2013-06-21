@@ -1,0 +1,13 @@
+{
+	"name": "vendor/google-cal-procedural",
+	"description": "A procedural approach to basic Google Calendar connection.",
+	"authors": [
+		{
+			"name": "Patko Csaba",
+			"email": "patkoscsaba@gmail.com"
+		}
+	],
+	"require": {
+		"google/api-client": "dev-feature/namespaces"
+	}
+}

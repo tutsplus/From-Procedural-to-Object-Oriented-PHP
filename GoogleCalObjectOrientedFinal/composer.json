@@ -1,0 +1,15 @@
+{
+	"name": "vendor/google-cal-procedural",
+	"description": "A procedural approach to basic Google Calendar connection.",
+	"authors": [
+		{
+			"name": "Patko Csaba",
+			"email": "patkoscsaba@gmail.com"
+		}
+	],
+	"require": {
+		"phpunit/phpunit": "3.7.*@dev",
+		"google/api-client": "dev-feature/namespaces",
+		"mockery/mockery": "dev-master"
+	}
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "name": "google/api-client",
+        "version": "dev-feature/namespaces",
+        "version_normalized": "dev-feature/namespaces",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Block8/Google-API.git",
+            "reference": "a231baed3873d0811c834e359e7fa47132625373"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Block8/Google-API/zipball/a231baed3873d0811c834e359e7fa47132625373",
+            "reference": "a231baed3873d0811c834e359e7fa47132625373",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-05-02 21:55:46",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Google": "src/Google/"
+            },
+            "files": [
+                "src/External/URITemplateParser.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Dan Cryer",
+                "email": "dan@block8.co.uk",
+                "homepage": "http://www.block8.co.uk/"
+            },
+            {
+                "name": "Google",
+                "email": "noreply@google.com",
+                "homepage": "http://www.google.com/"
+            }
+        ],
+        "description": "PHP Client for Google APIs",
+        "homepage": "https://github.com/block8/google-api",
+        "keywords": [
+            "adsense",
+            "adwords",
+            "analytics",
+            "api",
+            "chrome",
+            "client",
+            "compute",
+            "drive",
+            "google",
+            "php",
+            "plus",
+            "search",
+            "youtube"
+        ]
+    }
+]

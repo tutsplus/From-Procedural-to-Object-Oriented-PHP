@@ -1,0 +1,86 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "c969104bdc77142d26a4bbcf85c5c7db",
+    "packages": [
+        {
+            "name": "google/api-client",
+            "version": "dev-feature/namespaces",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Block8/Google-API.git",
+                "reference": "a231baed3873d0811c834e359e7fa47132625373"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Block8/Google-API/zipball/a231baed3873d0811c834e359e7fa47132625373",
+                "reference": "a231baed3873d0811c834e359e7fa47132625373",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Google": "src/Google/"
+                },
+                "files": [
+                    "src/External/URITemplateParser.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Dan Cryer",
+                    "email": "dan@block8.co.uk",
+                    "homepage": "http://www.block8.co.uk/"
+                },
+                {
+                    "name": "Google",
+                    "email": "noreply@google.com",
+                    "homepage": "http://www.google.com/"
+                }
+            ],
+            "description": "PHP Client for Google APIs",
+            "homepage": "https://github.com/block8/google-api",
+            "keywords": [
+                "adsense",
+                "adwords",
+                "analytics",
+                "api",
+                "chrome",
+                "client",
+                "compute",
+                "drive",
+                "google",
+                "php",
+                "plus",
+                "search",
+                "youtube"
+            ],
+            "time": "2013-05-02 21:55:46"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "google/api-client": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
